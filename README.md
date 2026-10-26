@@ -28,17 +28,16 @@ Anche la metrica G-mean viene dalla libreria (`imblearn.metrics`).
 ### I dataset
 
 I 5 dataset scelti sono casi reali di classificazione fortemente sbilanciata. Vengono scaricati in automatico al primo avvio da due note raccolte pubbliche:
-- **Benchmark di imbalanced-learn** (Ding 2011): una raccolta di riferimento nella letteratura scientifica sul learning sbilanciato. Da qui provengono *Satimage* e *Mammography*.
-- **OpenML**: utilizzato per recuperare *Abalone 19*, *Page Blocks* e *Bank Marketing*. L'uso di OpenML è fondamentale perché permette di scaricare i dati mantenendo intatte le colonne categoriche con i loro valori originali (non ancora convertite in one-hot). Questo è un requisito strettamente necessario per poter valutare correttamente il comportamento di algoritmi per dati misti come SMOTE-NC.
+- **[Benchmark di imbalanced-learn](https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html)** (Ding 2011): una raccolta di riferimento nella letteratura scientifica sul learning sbilanciato. Da qui provengono *Satimage* e *Mammography*.
+- **[OpenML](https://www.openml.org/)**: utilizzato per recuperare *Abalone 19*, *Page Blocks* e *Bank Marketing*. L'uso di OpenML è fondamentale perché permette di scaricare i dati mantenendo intatte le colonne categoriche con i loro valori originali (non ancora convertite in one-hot). Questo è un requisito strettamente necessario per poter valutare correttamente il comportamento di algoritmi per dati misti come SMOTE-NC.
 
 | Dataset | Dominio | Campioni | Casi rari | Sbilanciamento | Categoriche |
 |---|---|---|---|---|---|
-| Satimage | immagini satellitari | 6.435 | 626 (9,7%) | 9,3 : 1 | — |
-| Mammography | diagnosi medica | 11.183 | 260 (2,3%) | 42 : 1 | — |
-| Abalone 19 | biologia marina | 4.177 | 32 (0,8%) | 130 : 1 | sesso |
-| Page Blocks | documenti scansionati, 5 classi | 5.473 | da 329 a 28 | fino a 175 : 1 | — |
-| Bank Marketing | clienti di una banca | 45.211 | 5.289 (11,7%) | 7,5 : 1 | 9 su 15 |
-
+| [Satimage](https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite) | immagini satellitari | 6.435 | 626 (9,7%) | 9,3 : 1 | — |
+| [Mammography](https://www.openml.org/d/310) | diagnosi medica | 11.183 | 260 (2,3%) | 42 : 1 | — |
+| [Abalone 19](https://archive.ics.uci.edu/dataset/1/abalone) | biologia marina | 4.177 | 32 (0,8%) | 130 : 1 | sesso |
+| [Page Blocks](https://archive.ics.uci.edu/dataset/78/page+blocks+classification) | documenti scansionati, 5 classi | 5.473 | da 329 a 28 | fino a 175 : 1 | — |
+| [Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing) | clienti di una banca | 45.211 | 5.289 (11,7%) | 7,5 : 1 | 9 su 15 |
 ---
 
 ## 2. Struttura del progetto
