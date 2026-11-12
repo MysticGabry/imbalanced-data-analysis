@@ -6,7 +6,7 @@ import numpy as np  # noqa: E402
 from matplotlib.colors import LinearSegmentedColormap  # noqa: E402
 
 INK = "#1f1f1e"
-INK_MUTED = "#6b6a63"
+INK_MUTED = "#000000" 
 GRID = "#e4e3dc"
 BLUES = LinearSegmentedColormap.from_list(
     "blues", ["#cde2fb", "#86b6ef", "#3987e5", "#256abf", "#184f95", "#0d366b"]
@@ -48,7 +48,7 @@ def heatmap(table, title, path):
                 ax.text(j, i, "—", ha="center", va="center", color=INK_MUTED)
                 continue
             weight = "bold" if np.isclose(v, best[j]) else "normal"
-            ax.text(j, i, f"{v:.3f}", ha="center", va="center", fontsize=8,
+            ax.text(j, i, f"{v:.3f}", ha="center", va="center", fontsize=18,
                     color="white" if v > mid else INK, fontweight=weight)
     ax.set_title(title + "  (grassetto = migliore per dataset)", loc="left", fontsize=10)
     cbar = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02)

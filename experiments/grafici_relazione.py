@@ -36,10 +36,10 @@ def accuratezza_vs_gmean(df):
                edgecolors="white", linewidths=1.5)
     ax.set_yticks(list(y), sub.sampler)
     for lab in ax.get_yticklabels():
-        if lab.get_text() == "nessuno":
+        if lab.get_text() == "Valore iniziale":
             lab.set_fontweight("bold")
-    base = sub[sub.sampler == "nessuno"].iloc[0]
-    i_base = list(sub.sampler).index("nessuno")
+    base = sub[sub.sampler == "Valore iniziale"].iloc[0]
+    i_base = list(sub.sampler).index("Valore iniziale")
     ax.annotate(fmt(base.gmean_mean), (base.gmean_mean, i_base), xytext=(-10, 0),
                 textcoords="offset points", ha="right", va="center", fontweight="bold", color=INK)
     ax.annotate(fmt(base.accuracy_mean), (base.accuracy_mean, i_base), xytext=(10, 0),
@@ -73,7 +73,7 @@ def gmean_media(df):
                 color=INK if s == sub.index[-1] else INK_MUTED,
                 fontweight="bold" if s == sub.index[-1] else "normal")
     for lab in ax.get_yticklabels():
-        if lab.get_text() in ("nessuno", sub.index[-1]):
+        if lab.get_text() in ("Valore iniziale", sub.index[-1]):
             lab.set_fontweight("bold")
     ax.set_xlim(0, 1)
     ax.set_xticks([])

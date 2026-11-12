@@ -18,7 +18,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.130 ± 0.025 | 0.639 ± 0.045 | 0.000 ± 0.000 | 0.698 ± 0.080 | 0.421 ± 0.015 |
+| Valore iniziale | 0.130 ± 0.025 | 0.639 ± 0.045 | 0.000 ± 0.000 | 0.698 ± 0.080 | 0.421 ± 0.015 |
 | ROS | **0.703 ± 0.017** | 0.876 ± 0.029 | **0.723 ± 0.104** | **0.918 ± 0.030** | 0.695 ± 0.007 |
 | SMOTE | 0.701 ± 0.024 | 0.878 ± 0.027 | 0.697 ± 0.116 | 0.905 ± 0.034 | 0.691 ± 0.008 |
 | Borderline-SMOTE | 0.695 ± 0.021 | 0.879 ± 0.024 | 0.625 ± 0.162 | 0.897 ± 0.041 | 0.694 ± 0.007 |
@@ -35,7 +35,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.734 ± 0.036 | 0.786 ± 0.042 | 0.078 ± 0.165 | 0.806 ± 0.050 | 0.543 ± 0.010 |
+| Valore iniziale | 0.734 ± 0.036 | 0.786 ± 0.042 | 0.078 ± 0.165 | 0.806 ± 0.050 | 0.543 ± 0.010 |
 | ROS | 0.710 ± 0.035 | 0.740 ± 0.035 | 0.041 ± 0.129 | 0.765 ± 0.080 | 0.526 ± 0.009 |
 | SMOTE | 0.752 ± 0.040 | 0.832 ± 0.021 | 0.227 ± 0.256 | 0.823 ± 0.054 | 0.545 ± 0.016 |
 | Borderline-SMOTE | 0.750 ± 0.031 | 0.808 ± 0.040 | 0.040 ± 0.128 | 0.828 ± 0.053 | 0.549 ± 0.014 |
@@ -52,7 +52,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.817 ± 0.028 | 0.736 ± 0.040 | 0.000 ± 0.000 | 0.765 ± 0.049 | 0.455 ± 0.012 |
+| Valore iniziale | 0.817 ± 0.028 | 0.736 ± 0.040 | 0.000 ± 0.000 | 0.765 ± 0.049 | 0.455 ± 0.012 |
 | ROS | 0.900 ± 0.011 | 0.851 ± 0.030 | 0.077 ± 0.163 | 0.869 ± 0.052 | 0.634 ± 0.012 |
 | SMOTE | **0.908 ± 0.009** | 0.880 ± 0.025 | 0.401 ± 0.175 | 0.902 ± 0.040 | 0.656 ± 0.013 |
 | Borderline-SMOTE | 0.902 ± 0.008 | 0.884 ± 0.020 | 0.155 ± 0.200 | 0.879 ± 0.035 | 0.660 ± 0.014 |
@@ -71,7 +71,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.508 ± 0.003 | 0.704 ± 0.030 | 0.500 ± 0.000 | 0.737 ± 0.058 | 0.583 ± 0.006 |
+| Valore iniziale | 0.508 ± 0.003 | 0.704 ± 0.030 | 0.500 ± 0.000 | 0.737 ± 0.058 | 0.583 ± 0.006 |
 | ROS | 0.714 ± 0.020 | 0.876 ± 0.029 | **0.734 ± 0.087** | **0.920 ± 0.028** | 0.699 ± 0.006 |
 | SMOTE | 0.710 ± 0.027 | 0.879 ± 0.027 | 0.714 ± 0.094 | 0.909 ± 0.031 | 0.695 ± 0.007 |
 | Borderline-SMOTE | 0.700 ± 0.022 | 0.879 ± 0.024 | 0.676 ± 0.123 | 0.902 ± 0.038 | 0.696 ± 0.006 |
@@ -88,7 +88,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.758 ± 0.027 | 0.808 ± 0.033 | 0.511 ± 0.032 | 0.824 ± 0.046 | 0.613 ± 0.006 |
+| Valore iniziale | 0.758 ± 0.027 | 0.808 ± 0.033 | 0.511 ± 0.032 | 0.824 ± 0.046 | 0.613 ± 0.006 |
 | ROS | 0.743 ± 0.026 | 0.773 ± 0.026 | 0.504 ± 0.026 | 0.786 ± 0.071 | 0.605 ± 0.005 |
 | SMOTE | 0.771 ± 0.031 | 0.842 ± 0.018 | 0.542 ± 0.078 | 0.836 ± 0.049 | 0.610 ± 0.010 |
 | Borderline-SMOTE | 0.769 ± 0.025 | 0.824 ± 0.033 | 0.502 ± 0.026 | 0.840 ± 0.047 | 0.614 ± 0.009 |
@@ -105,7 +105,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.830 ± 0.024 | 0.770 ± 0.030 | 0.500 ± 0.000 | 0.783 ± 0.045 | 0.594 ± 0.006 |
+| Valore iniziale | 0.830 ± 0.024 | 0.770 ± 0.030 | 0.500 ± 0.000 | 0.783 ± 0.045 | 0.594 ± 0.006 |
 | ROS | 0.900 ± 0.011 | 0.860 ± 0.026 | 0.505 ± 0.031 | 0.877 ± 0.048 | 0.650 ± 0.009 |
 | SMOTE | **0.909 ± 0.009** | 0.883 ± 0.023 | 0.566 ± 0.064 | 0.906 ± 0.037 | 0.664 ± 0.011 |
 | Borderline-SMOTE | 0.903 ± 0.008 | 0.889 ± 0.019 | 0.519 ± 0.039 | 0.886 ± 0.030 | 0.673 ± 0.011 |
@@ -124,7 +124,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.491 ± 0.006 | 0.765 ± 0.029 | **0.498 ± 0.000** | 0.783 ± 0.040 | 0.612 ± 0.009 |
+| Valore iniziale | 0.491 ± 0.006 | 0.765 ± 0.029 | **0.498 ± 0.000** | 0.783 ± 0.040 | 0.612 ± 0.009 |
 | ROS | 0.517 ± 0.010 | 0.612 ± 0.009 | 0.466 ± 0.004 | 0.701 ± 0.026 | 0.612 ± 0.004 |
 | SMOTE | 0.519 ± 0.012 | 0.617 ± 0.009 | 0.469 ± 0.004 | 0.713 ± 0.028 | 0.605 ± 0.004 |
 | Borderline-SMOTE | **0.525 ± 0.013** | 0.604 ± 0.010 | 0.490 ± 0.013 | 0.707 ± 0.042 | 0.597 ± 0.004 |
@@ -141,7 +141,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.750 ± 0.023 | 0.803 ± 0.035 | 0.509 ± 0.027 | 0.810 ± 0.027 | 0.608 ± 0.005 |
+| Valore iniziale | 0.750 ± 0.023 | 0.803 ± 0.035 | 0.509 ± 0.027 | 0.810 ± 0.027 | 0.608 ± 0.005 |
 | ROS | 0.749 ± 0.023 | 0.784 ± 0.013 | 0.503 ± 0.023 | 0.786 ± 0.054 | 0.604 ± 0.005 |
 | SMOTE | 0.749 ± 0.026 | 0.751 ± 0.025 | **0.513 ± 0.030** | 0.797 ± 0.036 | 0.601 ± 0.009 |
 | Borderline-SMOTE | 0.747 ± 0.020 | 0.786 ± 0.028 | 0.500 ± 0.015 | 0.810 ± 0.040 | 0.604 ± 0.009 |
@@ -158,7 +158,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | **0.835 ± 0.019** | 0.820 ± 0.032 | 0.498 ± 0.000 | **0.812 ± 0.036** | 0.621 ± 0.007 |
+| Valore iniziale | **0.835 ± 0.019** | 0.820 ± 0.032 | 0.498 ± 0.000 | **0.812 ± 0.036** | 0.621 ± 0.007 |
 | ROS | 0.801 ± 0.008 | 0.779 ± 0.017 | 0.499 ± 0.012 | 0.806 ± 0.044 | 0.592 ± 0.006 |
 | SMOTE | 0.771 ± 0.010 | 0.723 ± 0.018 | 0.498 ± 0.008 | 0.776 ± 0.040 | 0.590 ± 0.007 |
 | Borderline-SMOTE | 0.759 ± 0.008 | 0.785 ± 0.025 | **0.506 ± 0.019** | 0.776 ± 0.027 | 0.610 ± 0.008 |
@@ -177,7 +177,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | **0.771 ± 0.020** | 0.919 ± 0.043 | 0.805 ± 0.073 | 0.981 ± 0.010 | 0.766 ± 0.009 |
+| Valore iniziale | **0.771 ± 0.020** | 0.919 ± 0.043 | 0.805 ± 0.073 | 0.981 ± 0.010 | 0.766 ± 0.009 |
 | ROS | 0.765 ± 0.016 | 0.922 ± 0.041 | 0.818 ± 0.074 | 0.977 ± 0.011 | **0.767 ± 0.009** |
 | SMOTE | 0.765 ± 0.017 | 0.922 ± 0.042 | 0.815 ± 0.080 | 0.975 ± 0.013 | 0.762 ± 0.008 |
 | Borderline-SMOTE | 0.757 ± 0.022 | 0.924 ± 0.037 | 0.752 ± 0.134 | 0.967 ± 0.024 | 0.764 ± 0.008 |
@@ -194,7 +194,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.758 ± 0.027 | 0.764 ± 0.042 | 0.511 ± 0.032 | 0.896 ± 0.026 | 0.613 ± 0.006 |
+| Valore iniziale | 0.758 ± 0.027 | 0.764 ± 0.042 | 0.511 ± 0.032 | 0.896 ± 0.026 | 0.613 ± 0.006 |
 | ROS | 0.743 ± 0.026 | 0.718 ± 0.040 | 0.504 ± 0.026 | 0.873 ± 0.041 | 0.605 ± 0.005 |
 | SMOTE | 0.771 ± 0.031 | 0.811 ± 0.026 | 0.542 ± 0.078 | 0.903 ± 0.027 | 0.610 ± 0.010 |
 | Borderline-SMOTE | 0.769 ± 0.025 | 0.787 ± 0.043 | 0.502 ± 0.026 | 0.906 ± 0.026 | 0.614 ± 0.009 |
@@ -211,7 +211,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.939 ± 0.011 | 0.891 ± 0.023 | 0.522 ± 0.055 | 0.949 ± 0.019 | 0.694 ± 0.008 |
+| Valore iniziale | 0.939 ± 0.011 | 0.891 ± 0.023 | 0.522 ± 0.055 | 0.949 ± 0.019 | 0.694 ± 0.008 |
 | ROS | 0.934 ± 0.011 | 0.889 ± 0.022 | 0.522 ± 0.055 | 0.935 ± 0.022 | 0.681 ± 0.008 |
 | SMOTE | 0.947 ± 0.010 | 0.919 ± 0.020 | 0.627 ± 0.107 | **0.957 ± 0.016** | 0.704 ± 0.011 |
 | Borderline-SMOTE | 0.945 ± 0.010 | 0.913 ± 0.017 | 0.523 ± 0.056 | 0.948 ± 0.014 | 0.708 ± 0.011 |
@@ -230,7 +230,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.903 ± 0.001 | 0.984 ± 0.002 | **0.992 ± 0.001** | **0.960 ± 0.003** | **0.892 ± 0.002** |
+| Valore iniziale | 0.903 ± 0.001 | 0.984 ± 0.002 | **0.992 ± 0.001** | **0.960 ± 0.003** | **0.892 ± 0.002** |
 | ROS | 0.616 ± 0.013 | 0.898 ± 0.005 | 0.795 ± 0.016 | 0.908 ± 0.008 | 0.756 ± 0.003 |
 | SMOTE | 0.622 ± 0.013 | 0.901 ± 0.005 | 0.806 ± 0.020 | 0.911 ± 0.007 | 0.748 ± 0.003 |
 | Borderline-SMOTE | 0.637 ± 0.015 | 0.889 ± 0.011 | 0.867 ± 0.029 | 0.914 ± 0.008 | 0.734 ± 0.004 |
@@ -247,7 +247,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | 0.910 ± 0.009 | 0.982 ± 0.004 | 0.984 ± 0.003 | 0.962 ± 0.005 | 0.830 ± 0.003 |
+| Valore iniziale | 0.910 ± 0.009 | 0.982 ± 0.004 | 0.984 ± 0.003 | 0.962 ± 0.005 | 0.830 ± 0.003 |
 | ROS | **0.915 ± 0.007** | 0.981 ± 0.001 | 0.984 ± 0.004 | 0.961 ± 0.007 | **0.834 ± 0.004** |
 | SMOTE | 0.904 ± 0.010 | 0.969 ± 0.006 | 0.964 ± 0.010 | 0.958 ± 0.005 | 0.821 ± 0.004 |
 | Borderline-SMOTE | 0.903 ± 0.008 | 0.978 ± 0.004 | 0.980 ± 0.004 | 0.961 ± 0.005 | 0.823 ± 0.005 |
@@ -264,7 +264,7 @@ Protocollo: 5-fold stratificata ripetuta 2 volte; ricampionamento applicato solo
 
 | Campionatore | satimage | mammography | abalone 19 | page blocks | bank marketing |
 |---|---|---|---|---|---|
-| nessuno | **0.943 ± 0.006** | **0.986 ± 0.002** | **0.992 ± 0.001** | 0.966 ± 0.005 | **0.886 ± 0.001** |
+| Valore iniziale | **0.943 ± 0.006** | **0.986 ± 0.002** | **0.992 ± 0.001** | 0.966 ± 0.005 | **0.886 ± 0.001** |
 | ROS | 0.909 ± 0.005 | 0.974 ± 0.003 | 0.972 ± 0.006 | 0.955 ± 0.004 | 0.760 ± 0.004 |
 | SMOTE | 0.883 ± 0.007 | 0.957 ± 0.005 | 0.921 ± 0.010 | 0.938 ± 0.006 | 0.744 ± 0.004 |
 | Borderline-SMOTE | 0.874 ± 0.007 | 0.973 ± 0.005 | 0.970 ± 0.010 | 0.943 ± 0.006 | 0.773 ± 0.005 |
@@ -283,7 +283,7 @@ Numero medio, per fold, di celle one-hot dei campioni sintetici diverse da 0 e 1
 
 | Campionatore | Valori non validi | Campioni di training |
 |---|---|---|
-| nessuno | 0 | 3342 |
+| Valore iniziale | 0 | 3342 |
 | ROS | 0 | 6632 |
 | SMOTE | 1276 | 6632 |
 | Borderline-SMOTE | 188 | 6632 |
@@ -302,7 +302,7 @@ Numero medio, per fold, di celle one-hot dei campioni sintetici diverse da 0 e 1
 
 | Campionatore | Valori non validi | Campioni di training |
 |---|---|---|
-| nessuno | 0 | 36169 |
+| Valore iniziale | 0 | 36169 |
 | ROS | 0 | 63875 |
 | SMOTE | 62782 | 63875 |
 | Borderline-SMOTE | 62750 | 63875 |

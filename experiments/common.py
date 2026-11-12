@@ -116,7 +116,7 @@ def describe(y):
 def make_samplers(seed=SEED):
     """I metodi di imbalanced-learn confrontati, con i parametri di default."""
     return {
-        "nessuno": None,
+        "Valore iniziale": None,
         "ROS": RandomOverSampler(random_state=seed),
         "SMOTE": SMOTE(random_state=seed),
         "Borderline-SMOTE": BorderlineSMOTE(random_state=seed),
