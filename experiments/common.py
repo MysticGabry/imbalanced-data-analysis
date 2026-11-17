@@ -63,7 +63,7 @@ def load_abalone_19():
 def load_page_blocks():
     """Page Blocks (UCI): blocchi di pagine scansionate, 5 classi.
 
-    1 testo, 2 riga orizzontale, 3 immagine, 4 riga verticale, 5 grafico.
+    1 testo, 2 riga orizzontale, 3 grafico, 4 riga verticale, 5 immagine.
     """
     from sklearn.datasets import fetch_openml
 
